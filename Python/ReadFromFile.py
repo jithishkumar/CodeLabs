@@ -3,7 +3,11 @@ dicti = {}
 bigC = None
 bigW = None
 
-reader = open(path,'r')
+try:
+    reader = open(path,'r')
+except:
+    print("file not found in the given directory")
+    quit()
 
 for lines in reader:
     #print(lines.strip())
