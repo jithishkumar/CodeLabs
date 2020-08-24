@@ -1,4 +1,4 @@
-path = 'D:\Learning\Python\Sample.txt'
+path = 'Text File with some texts in it'
 dicti = {}
 bigC = None
 bigW = None
